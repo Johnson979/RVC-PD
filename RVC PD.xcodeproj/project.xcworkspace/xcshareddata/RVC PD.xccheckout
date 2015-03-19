@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>57257297-D949-4E37-863D-CB3B92D98F06</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RVC PD</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CE274E4A5428A13477654268E559AD1F7F2237E2</key>
+		<string>https://github.com/Johnson979/RVC-PD.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RVC PD.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CE274E4A5428A13477654268E559AD1F7F2237E2</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Johnson979/RVC-PD.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CE274E4A5428A13477654268E559AD1F7F2237E2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CE274E4A5428A13477654268E559AD1F7F2237E2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RVC%20PD</string>
+		</dict>
+	</array>
+</dict>
+</plist>

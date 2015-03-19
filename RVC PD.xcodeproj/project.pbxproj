@@ -28,6 +28,7 @@
 		9D329D4C1AA6328E001DE582 /* Jonathan Ulrich.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D329D4B1AA6328E001DE582 /* Jonathan Ulrich.pdf */; };
 		9D329D4E1AA63293001DE582 /* Joshua Wahmhoff.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D329D4D1AA63293001DE582 /* Joshua Wahmhoff.pdf */; };
 		9D329D501AA65649001DE582 /* iosmain.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D329D4F1AA65649001DE582 /* iosmain.png */; };
+		9D3AFBEF1ABB50FB003A4799 /* WilliamMorrisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3AFBEE1ABB50FB003A4799 /* WilliamMorrisViewController.swift */; };
 		9D55009D1ABA04E600D7AEAB /* 021815-022215.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D55009C1ABA04E600D7AEAB /* 021815-022215.pdf */; };
 		9D55009F1ABA04FA00D7AEAB /* 022615-022815.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D55009E1ABA04FA00D7AEAB /* 022615-022815.pdf */; };
 		9D5500A11ABA050000D7AEAB /* 030115-030515.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D5500A01ABA050000D7AEAB /* 030115-030515.pdf */; };
@@ -77,6 +78,7 @@
 		9D329D4B1AA6328E001DE582 /* Jonathan Ulrich.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Jonathan Ulrich.pdf"; sourceTree = "<group>"; };
 		9D329D4D1AA63293001DE582 /* Joshua Wahmhoff.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Joshua Wahmhoff.pdf"; sourceTree = "<group>"; };
 		9D329D4F1AA65649001DE582 /* iosmain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iosmain.png; sourceTree = "<group>"; };
+		9D3AFBEE1ABB50FB003A4799 /* WilliamMorrisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WilliamMorrisViewController.swift; sourceTree = "<group>"; };
 		9D55009C1ABA04E600D7AEAB /* 021815-022215.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "021815-022215.pdf"; path = "RVC PD/021815-022215.pdf"; sourceTree = "<group>"; };
 		9D55009E1ABA04FA00D7AEAB /* 022615-022815.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "022615-022815.pdf"; sourceTree = "<group>"; };
 		9D5500A01ABA050000D7AEAB /* 030115-030515.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "030115-030515.pdf"; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				9DAAC4611ABA513C005A3233 /* RSOViewController.swift */,
 				9DAAC4631ABA5A14005A3233 /* JoshuaWahmhoffViewController.swift */,
 				9DAAC4651ABA5FFB005A3233 /* JonathanUlrichViewController.swift */,
+				9D3AFBEE1ABB50FB003A4799 /* WilliamMorrisViewController.swift */,
 				9D329D401AA63220001DE582 /* RSO PDF */,
 				9D0861C31A9FABE300C57CD5 /* AppDelegate.swift */,
 				9D0861C51A9FABE300C57CD5 /* FirstViewController.swift */,
@@ -332,6 +335,7 @@
 				9DAAC4621ABA513C005A3233 /* RSOViewController.swift in Sources */,
 				9DAAC4661ABA5FFB005A3233 /* JonathanUlrichViewController.swift in Sources */,
 				9DAAC4641ABA5A14005A3233 /* JoshuaWahmhoffViewController.swift in Sources */,
+				9D3AFBEF1ABB50FB003A4799 /* WilliamMorrisViewController.swift in Sources */,
 				9DAAC4601ABA4CCD005A3233 /* 022615ViewController.swift in Sources */,
 				9DAAC45E1ABA4570005A3233 /* 022315ViewController.swift in Sources */,
 			);
