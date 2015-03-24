@@ -16,7 +16,15 @@ class JonathanUlrichViewController: UIViewController {
     }
     
     
-    @IBOutlet weak var webview: UIWebView!
+        
+    
+    
+    @IBAction func scalefile(sender: UIPinchGestureRecognizer) {
+        self.view.transform = CGAffineTransformScale(self.view.transform, sender.scale, sender.scale)
+        sender.scale = 1    }
+    
+    
+       @IBOutlet weak var webview: UIWebView!
 
     override func viewDidLoad() {
         super.viewDidLoad()

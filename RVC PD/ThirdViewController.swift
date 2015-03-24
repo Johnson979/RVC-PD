@@ -10,6 +10,13 @@ import UIKit
 
 class ThirdViewController: UIViewController {
     
+    
+    @IBAction func btnNonEmergency(sender: UIButton) {
+        if let url = NSURL(string: "tel://8159214370") {
+            UIApplication.sharedApplication().openURL(url)
+        }    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
