@@ -20,13 +20,29 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iosmain.png" translatesAutoresizingMaskIntoConstraints="NO" id="Har-0O-fQb">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qjj-66-P1F">
+                                <rect key="frame" x="315" y="357" width="120" height="62"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="l3I-LO-ojc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <state key="normal" title="Try this">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnTrythis:" destination="9pv-A4-QxB" eventType="touchUpInside" id="mot-Eu-HLG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Har-0O-fQb" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="HnJ-YO-IOZ"/>
-                            <constraint firstAttribute="bottom" secondItem="Har-0O-fQb" secondAttribute="bottom" id="IGC-dQ-bYx"/>
-                            <constraint firstAttribute="trailing" secondItem="Har-0O-fQb" secondAttribute="trailing" id="Tgv-s3-4Rq"/>
-                            <constraint firstItem="Har-0O-fQb" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="top" id="WVy-E5-efP"/>
+                            <constraint firstAttribute="bottom" secondItem="Har-0O-fQb" secondAttribute="bottom" id="Ie8-Ni-5YW"/>
+                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="Qjj-66-P1F" secondAttribute="bottom" constant="132" id="Pmj-fS-9Py"/>
+                            <constraint firstItem="Har-0O-fQb" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="top" id="SaX-GS-YGr"/>
+                            <constraint firstAttribute="trailing" secondItem="Qjj-66-P1F" secondAttribute="trailing" constant="165" id="WnL-je-D8z"/>
+                            <constraint firstItem="Har-0O-fQb" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="kkC-wd-YCP"/>
+                            <constraint firstItem="Qjj-66-P1F" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" constant="337" id="mHW-Kc-gGI"/>
+                            <constraint firstAttribute="trailing" secondItem="Har-0O-fQb" secondAttribute="trailing" id="pTD-5t-XNw"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" image="house.png" id="acW-dT-cKf"/>
@@ -72,7 +88,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2RR-Pm-rD4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="345" y="1674"/>
+            <point key="canvasLocation" x="881" y="1195"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="juj-Q8-019">
@@ -120,7 +136,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rad-vN-xe5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="686" y="966"/>
+            <point key="canvasLocation" x="727" y="1042"/>
         </scene>
         <!--Activity-->
         <scene sceneID="wg7-f3-ORb">
@@ -438,20 +454,16 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bza-VD-1x5">
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bza-VD-1x5">
                                 <rect key="frame" x="0.0" y="64" width="600" height="543"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Bza-VD-1x5" firstAttribute="top" secondItem="17p-OF-eAc" secondAttribute="bottom" id="5X3-4M-LAY"/>
-                            <constraint firstItem="Bza-VD-1x5" firstAttribute="leading" secondItem="17p-OF-eAc" secondAttribute="leading" id="CB5-yR-BAs"/>
                             <constraint firstAttribute="trailing" secondItem="17p-OF-eAc" secondAttribute="trailing" id="KCe-je-pJJ"/>
-                            <constraint firstItem="17p-OF-eAc" firstAttribute="trailing" secondItem="Bza-VD-1x5" secondAttribute="trailing" id="LiA-f5-Q46"/>
                             <constraint firstItem="17p-OF-eAc" firstAttribute="top" secondItem="RVz-l5-4nN" secondAttribute="bottom" id="SVQ-WL-1NA"/>
                             <constraint firstItem="17p-OF-eAc" firstAttribute="leading" secondItem="BMs-Jy-znC" secondAttribute="leading" id="qa5-nc-KiH"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="Bza-VD-1x5" secondAttribute="bottom" constant="-7" id="xc3-V3-ioR"/>
                         </constraints>
                     </view>
                     <connections>
@@ -460,7 +472,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b4X-O9-bPq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="699" y="914"/>
+            <point key="canvasLocation" x="727" y="1125"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">

@@ -12,6 +12,10 @@ class FirstViewController: UIViewController {
     
     
     
+    @IBAction func btnTrythis(sender: UIButton) {
+        if let url = NSURL(string: "tel://8159214370") {
+            UIApplication.sharedApplication().openURL(url)
+        }    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
