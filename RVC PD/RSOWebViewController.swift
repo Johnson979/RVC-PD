@@ -1,26 +1,19 @@
 //
-//  RSOViewController.swift
+//  RSOWebViewController.swift
 //  RVC PD
 //
-//  Created by Todd Johnson on 3/18/15.
+//  Created by Todd Johnson on 4/6/15.
 //  Copyright (c) 2015 Rock Valley College. All rights reserved.
 //
 
 import UIKit
 
-class RSOViewController: UIViewController {
+class RSOWebViewController: UIViewController {
 
-    @IBOutlet weak var rsoWeb: UIWebView!
-    
-    
-    @IBAction func btnBack(sender: UIBarButtonItem) {
-        rsoWeb.goBack()
-    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        loadwebview()
     }
 
     override func didReceiveMemoryWarning() {
@@ -38,12 +31,5 @@ class RSOViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-    func loadwebview()
-    {
-        let url = NSURL(string: "https://www.dropbox.com/sh/8r034i5rhwjek3r/AACUeTxIHFbFL1Ae3Mfi7h9Da?dl=0")
-        let request = NSURLRequest(URL: url!)
-        rsoWeb.scalesPageToFit = true
-        rsoWeb.loadRequest(request)
-        
-    }
+
 }

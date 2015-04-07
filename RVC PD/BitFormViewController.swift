@@ -1,21 +1,25 @@
 //
-//  RSOViewController.swift
+//  BitFormViewController.swift
 //  RVC PD
 //
-//  Created by Todd Johnson on 3/18/15.
+//  Created by Todd Johnson on 4/7/15.
 //  Copyright (c) 2015 Rock Valley College. All rights reserved.
 //
 
 import UIKit
 
-class RSOViewController: UIViewController {
-
-    @IBOutlet weak var rsoWeb: UIWebView!
+class BitFormViewController: UIViewController {
+    
     
     
     @IBAction func btnBack(sender: UIBarButtonItem) {
-        rsoWeb.goBack()
+        webview.goBack()
     }
+    
+    
+    @IBOutlet weak var webview: UIWebView!
+  
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -40,10 +44,9 @@ class RSOViewController: UIViewController {
     */
     func loadwebview()
     {
-        let url = NSURL(string: "https://www.dropbox.com/sh/8r034i5rhwjek3r/AACUeTxIHFbFL1Ae3Mfi7h9Da?dl=0")
+        let url = NSURL(string: "https://publicdocs.maxient.com/incidentreport.php?RockValleyCollege")
         let request = NSURLRequest(URL: url!)
-        rsoWeb.scalesPageToFit = true
-        rsoWeb.loadRequest(request)
+        webview.scalesPageToFit = true
+        webview.loadRequest(request)
         
-    }
-}
+    }}

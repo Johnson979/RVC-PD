@@ -20,26 +20,11 @@
 		9D0861EC1A9FB17200C57CD5 /* handcuff.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D0861EB1A9FB17200C57CD5 /* handcuff.png */; };
 		9D0861EE1A9FB7CD00C57CD5 /* Police Patch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D0861ED1A9FB7CD00C57CD5 /* Police Patch.jpg */; };
 		9D0861F01A9FBB9300C57CD5 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0861EF1A9FBB9300C57CD5 /* ThirdViewController.swift */; };
-		9D329D421AA63262001DE582 /* Jonathan Burhans.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D329D411AA63262001DE582 /* Jonathan Burhans.pdf */; };
-		9D329D441AA63270001DE582 /* Michael Desario.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D329D431AA63270001DE582 /* Michael Desario.pdf */; };
-		9D329D461AA6327C001DE582 /* Matthew Cross.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D329D451AA6327C001DE582 /* Matthew Cross.pdf */; };
-		9D329D481AA63282001DE582 /* Robert Patterson.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D329D471AA63282001DE582 /* Robert Patterson.pdf */; };
-		9D329D4A1AA63287001DE582 /* William Morris.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D329D491AA63287001DE582 /* William Morris.pdf */; };
-		9D329D4C1AA6328E001DE582 /* Jonathan Ulrich.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D329D4B1AA6328E001DE582 /* Jonathan Ulrich.pdf */; };
-		9D329D4E1AA63293001DE582 /* Joshua Wahmhoff.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D329D4D1AA63293001DE582 /* Joshua Wahmhoff.pdf */; };
 		9D329D501AA65649001DE582 /* iosmain.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D329D4F1AA65649001DE582 /* iosmain.png */; };
-		9D3AFBEF1ABB50FB003A4799 /* WilliamMorrisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3AFBEE1ABB50FB003A4799 /* WilliamMorrisViewController.swift */; };
-		9D55009D1ABA04E600D7AEAB /* 021815-022215.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D55009C1ABA04E600D7AEAB /* 021815-022215.pdf */; };
-		9D55009F1ABA04FA00D7AEAB /* 022615-022815.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D55009E1ABA04FA00D7AEAB /* 022615-022815.pdf */; };
-		9D5500A11ABA050000D7AEAB /* 030115-030515.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D5500A01ABA050000D7AEAB /* 030115-030515.pdf */; };
-		9D5500A31ABA050500D7AEAB /* 030615-030815.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D5500A21ABA050500D7AEAB /* 030615-030815.pdf */; };
-		9D5500A51ABA050900D7AEAB /* 022315-022515.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9D5500A41ABA050900D7AEAB /* 022315-022515.pdf */; };
-		9D5500A71ABA095E00D7AEAB /* 021815ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5500A61ABA095E00D7AEAB /* 021815ViewController.swift */; };
-		9DAAC45E1ABA4570005A3233 /* 022315ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAAC45D1ABA4570005A3233 /* 022315ViewController.swift */; };
-		9DAAC4601ABA4CCD005A3233 /* 022615ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAAC45F1ABA4CCD005A3233 /* 022615ViewController.swift */; };
+		9D33BEE61AD467AB008F0252 /* BitFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D33BEE51AD467AB008F0252 /* BitFormViewController.swift */; };
+		9D33BEE81AD4777B008F0252 /* lifebuoy.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D33BEE71AD4777B008F0252 /* lifebuoy.png */; };
+		9D3C4A601AD39203000A9972 /* MediaLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3C4A5F1AD39203000A9972 /* MediaLogViewController.swift */; };
 		9DAAC4621ABA513C005A3233 /* RSOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAAC4611ABA513C005A3233 /* RSOViewController.swift */; };
-		9DAAC4641ABA5A14005A3233 /* JoshuaWahmhoffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAAC4631ABA5A14005A3233 /* JoshuaWahmhoffViewController.swift */; };
-		9DAAC4661ABA5FFB005A3233 /* JonathanUlrichViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAAC4651ABA5FFB005A3233 /* JonathanUlrichViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,26 +55,11 @@
 		9D0861EB1A9FB17200C57CD5 /* handcuff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = handcuff.png; sourceTree = "<group>"; };
 		9D0861ED1A9FB7CD00C57CD5 /* Police Patch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Police Patch.jpg"; sourceTree = "<group>"; };
 		9D0861EF1A9FBB9300C57CD5 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
-		9D329D411AA63262001DE582 /* Jonathan Burhans.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Jonathan Burhans.pdf"; sourceTree = "<group>"; };
-		9D329D431AA63270001DE582 /* Michael Desario.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Michael Desario.pdf"; sourceTree = "<group>"; };
-		9D329D451AA6327C001DE582 /* Matthew Cross.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Matthew Cross.pdf"; sourceTree = "<group>"; };
-		9D329D471AA63282001DE582 /* Robert Patterson.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Robert Patterson.pdf"; sourceTree = "<group>"; };
-		9D329D491AA63287001DE582 /* William Morris.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "William Morris.pdf"; sourceTree = "<group>"; };
-		9D329D4B1AA6328E001DE582 /* Jonathan Ulrich.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Jonathan Ulrich.pdf"; sourceTree = "<group>"; };
-		9D329D4D1AA63293001DE582 /* Joshua Wahmhoff.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Joshua Wahmhoff.pdf"; sourceTree = "<group>"; };
 		9D329D4F1AA65649001DE582 /* iosmain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iosmain.png; sourceTree = "<group>"; };
-		9D3AFBEE1ABB50FB003A4799 /* WilliamMorrisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WilliamMorrisViewController.swift; sourceTree = "<group>"; };
-		9D55009C1ABA04E600D7AEAB /* 021815-022215.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "021815-022215.pdf"; path = "RVC PD/021815-022215.pdf"; sourceTree = "<group>"; };
-		9D55009E1ABA04FA00D7AEAB /* 022615-022815.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "022615-022815.pdf"; sourceTree = "<group>"; };
-		9D5500A01ABA050000D7AEAB /* 030115-030515.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "030115-030515.pdf"; sourceTree = "<group>"; };
-		9D5500A21ABA050500D7AEAB /* 030615-030815.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "030615-030815.pdf"; sourceTree = "<group>"; };
-		9D5500A41ABA050900D7AEAB /* 022315-022515.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "022315-022515.pdf"; path = "RVC PD/022315-022515.pdf"; sourceTree = "<group>"; };
-		9D5500A61ABA095E00D7AEAB /* 021815ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = 021815ViewController.swift; path = ../021815ViewController.swift; sourceTree = "<group>"; };
-		9DAAC45D1ABA4570005A3233 /* 022315ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 022315ViewController.swift; sourceTree = "<group>"; };
-		9DAAC45F1ABA4CCD005A3233 /* 022615ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 022615ViewController.swift; sourceTree = "<group>"; };
+		9D33BEE51AD467AB008F0252 /* BitFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitFormViewController.swift; sourceTree = "<group>"; };
+		9D33BEE71AD4777B008F0252 /* lifebuoy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lifebuoy.png; path = "../../iconbeast lite 300 - png/lifebuoy.png"; sourceTree = "<group>"; };
+		9D3C4A5F1AD39203000A9972 /* MediaLogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaLogViewController.swift; sourceTree = "<group>"; };
 		9DAAC4611ABA513C005A3233 /* RSOViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RSOViewController.swift; path = ../RSOViewController.swift; sourceTree = "<group>"; };
-		9DAAC4631ABA5A14005A3233 /* JoshuaWahmhoffViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoshuaWahmhoffViewController.swift; sourceTree = "<group>"; };
-		9DAAC4651ABA5FFB005A3233 /* JonathanUlrichViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JonathanUlrichViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +83,6 @@
 		9D0861B51A9FABE300C57CD5 = {
 			isa = PBXGroup;
 			children = (
-				9DAAC45C1ABA3F01005A3233 /* PDF */,
 				9D0861C01A9FABE300C57CD5 /* RVC PD */,
 				9D0861D81A9FABE300C57CD5 /* RVC PDTests */,
 				9D0861BF1A9FABE300C57CD5 /* Products */,
@@ -132,26 +101,16 @@
 		9D0861C01A9FABE300C57CD5 /* RVC PD */ = {
 			isa = PBXGroup;
 			children = (
-				9D5500A61ABA095E00D7AEAB /* 021815ViewController.swift */,
-				9DAAC45D1ABA4570005A3233 /* 022315ViewController.swift */,
-				9DAAC45F1ABA4CCD005A3233 /* 022615ViewController.swift */,
-				9DAAC4611ABA513C005A3233 /* RSOViewController.swift */,
-				9DAAC4631ABA5A14005A3233 /* JoshuaWahmhoffViewController.swift */,
-				9DAAC4651ABA5FFB005A3233 /* JonathanUlrichViewController.swift */,
-				9D3AFBEE1ABB50FB003A4799 /* WilliamMorrisViewController.swift */,
-				9D329D401AA63220001DE582 /* RSO PDF */,
-				9D0861C31A9FABE300C57CD5 /* AppDelegate.swift */,
+				9D3C4A5F1AD39203000A9972 /* MediaLogViewController.swift */,
+				9D33BEE51AD467AB008F0252 /* BitFormViewController.swift */,
 				9D0861C51A9FABE300C57CD5 /* FirstViewController.swift */,
-				9D0861E51A9FAD7000C57CD5 /* phone.png */,
-				9D0861EF1A9FBB9300C57CD5 /* ThirdViewController.swift */,
 				9D0861C71A9FABE300C57CD5 /* SecondViewController.swift */,
-				9D0861E71A9FAE4F00C57CD5 /* house.png */,
-				9D0861EB1A9FB17200C57CD5 /* handcuff.png */,
-				9D0861E91A9FB15300C57CD5 /* id-card.png */,
-				9D329D4F1AA65649001DE582 /* iosmain.png */,
-				9D0861ED1A9FB7CD00C57CD5 /* Police Patch.jpg */,
-				9D0861C91A9FABE300C57CD5 /* Main.storyboard */,
+				9D0861EF1A9FBB9300C57CD5 /* ThirdViewController.swift */,
+				9DAAC4611ABA513C005A3233 /* RSOViewController.swift */,
+				9D329D401AA63220001DE582 /* Images */,
 				9D0861CC1A9FABE300C57CD5 /* Images.xcassets */,
+				9D0861C91A9FABE300C57CD5 /* Main.storyboard */,
+				9D0861C31A9FABE300C57CD5 /* AppDelegate.swift */,
 				9D0861CE1A9FABE300C57CD5 /* LaunchScreen.xib */,
 				9D0861C11A9FABE300C57CD5 /* Supporting Files */,
 			);
@@ -183,30 +142,18 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9D329D401AA63220001DE582 /* RSO PDF */ = {
+		9D329D401AA63220001DE582 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				9D329D4D1AA63293001DE582 /* Joshua Wahmhoff.pdf */,
-				9D329D4B1AA6328E001DE582 /* Jonathan Ulrich.pdf */,
-				9D329D491AA63287001DE582 /* William Morris.pdf */,
-				9D329D471AA63282001DE582 /* Robert Patterson.pdf */,
-				9D329D451AA6327C001DE582 /* Matthew Cross.pdf */,
-				9D329D431AA63270001DE582 /* Michael Desario.pdf */,
-				9D329D411AA63262001DE582 /* Jonathan Burhans.pdf */,
-				9D55009E1ABA04FA00D7AEAB /* 022615-022815.pdf */,
-				9D5500A01ABA050000D7AEAB /* 030115-030515.pdf */,
-				9D5500A21ABA050500D7AEAB /* 030615-030815.pdf */,
+				9D0861EB1A9FB17200C57CD5 /* handcuff.png */,
+				9D33BEE71AD4777B008F0252 /* lifebuoy.png */,
+				9D0861E51A9FAD7000C57CD5 /* phone.png */,
+				9D0861E91A9FB15300C57CD5 /* id-card.png */,
+				9D329D4F1AA65649001DE582 /* iosmain.png */,
+				9D0861ED1A9FB7CD00C57CD5 /* Police Patch.jpg */,
+				9D0861E71A9FAE4F00C57CD5 /* house.png */,
 			);
-			name = "RSO PDF";
-			sourceTree = "<group>";
-		};
-		9DAAC45C1ABA3F01005A3233 /* PDF */ = {
-			isa = PBXGroup;
-			children = (
-				9D55009C1ABA04E600D7AEAB /* 021815-022215.pdf */,
-				9D5500A41ABA050900D7AEAB /* 022315-022515.pdf */,
-			);
-			name = PDF;
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,26 +237,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D5500A51ABA050900D7AEAB /* 022315-022515.pdf in Resources */,
 				9D0861EA1A9FB15300C57CD5 /* id-card.png in Resources */,
 				9D0861CB1A9FABE300C57CD5 /* Main.storyboard in Resources */,
-				9D5500A31ABA050500D7AEAB /* 030615-030815.pdf in Resources */,
-				9D329D481AA63282001DE582 /* Robert Patterson.pdf in Resources */,
 				9D0861D01A9FABE300C57CD5 /* LaunchScreen.xib in Resources */,
 				9D0861EE1A9FB7CD00C57CD5 /* Police Patch.jpg in Resources */,
+				9D33BEE81AD4777B008F0252 /* lifebuoy.png in Resources */,
 				9D0861EC1A9FB17200C57CD5 /* handcuff.png in Resources */,
-				9D329D4A1AA63287001DE582 /* William Morris.pdf in Resources */,
-				9D329D441AA63270001DE582 /* Michael Desario.pdf in Resources */,
-				9D329D4E1AA63293001DE582 /* Joshua Wahmhoff.pdf in Resources */,
-				9D329D461AA6327C001DE582 /* Matthew Cross.pdf in Resources */,
-				9D329D421AA63262001DE582 /* Jonathan Burhans.pdf in Resources */,
 				9D0861E81A9FAE4F00C57CD5 /* house.png in Resources */,
-				9D5500A11ABA050000D7AEAB /* 030115-030515.pdf in Resources */,
-				9D329D4C1AA6328E001DE582 /* Jonathan Ulrich.pdf in Resources */,
-				9D55009D1ABA04E600D7AEAB /* 021815-022215.pdf in Resources */,
 				9D0861E61A9FAD7000C57CD5 /* phone.png in Resources */,
 				9D329D501AA65649001DE582 /* iosmain.png in Resources */,
-				9D55009F1ABA04FA00D7AEAB /* 022615-022815.pdf in Resources */,
 				9D0861CD1A9FABE300C57CD5 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,17 +264,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D33BEE61AD467AB008F0252 /* BitFormViewController.swift in Sources */,
 				9D0861C81A9FABE300C57CD5 /* SecondViewController.swift in Sources */,
 				9D0861C41A9FABE300C57CD5 /* AppDelegate.swift in Sources */,
 				9D0861F01A9FBB9300C57CD5 /* ThirdViewController.swift in Sources */,
 				9D0861C61A9FABE300C57CD5 /* FirstViewController.swift in Sources */,
-				9D5500A71ABA095E00D7AEAB /* 021815ViewController.swift in Sources */,
+				9D3C4A601AD39203000A9972 /* MediaLogViewController.swift in Sources */,
 				9DAAC4621ABA513C005A3233 /* RSOViewController.swift in Sources */,
-				9DAAC4661ABA5FFB005A3233 /* JonathanUlrichViewController.swift in Sources */,
-				9DAAC4641ABA5A14005A3233 /* JoshuaWahmhoffViewController.swift in Sources */,
-				9D3AFBEF1ABB50FB003A4799 /* WilliamMorrisViewController.swift in Sources */,
-				9DAAC4601ABA4CCD005A3233 /* 022615ViewController.swift in Sources */,
-				9DAAC45E1ABA4570005A3233 /* 022315ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
