@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BitFormViewController: UIViewController {
+class BitFormViewController: UIViewController, UIWebViewDelegate {
     
     
     
@@ -20,8 +20,11 @@ class BitFormViewController: UIViewController {
     @IBOutlet weak var webview: UIWebView!
   
 
+    @IBOutlet weak var activity: UIActivityIndicatorView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        webview.delegate=self
+        
 
         // Do any additional setup after loading the view.
         loadwebview()
@@ -42,6 +45,22 @@ class BitFormViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    func webViewDidStartLoad(webView: UIWebView){
+        
+        activity.hidden = false
+        activity.startAnimating()
+        
+    }
+    
+    func webViewDidFinishLoad(webView: UIWebView)
+    {
+        
+        activity.hidden = true
+        activity.stopAnimating()
+        
+    }
+    
     func loadwebview()
     {
         let url = NSURL(string: "https://publicdocs.maxient.com/incidentreport.php?RockValleyCollege")

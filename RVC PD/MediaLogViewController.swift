@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MediaLogViewController: UIViewController {
+class MediaLogViewController: UIViewController, UIWebViewDelegate {
    
     @IBAction func btnBack(sender: UIBarButtonItem) {
         webview.goBack()
@@ -16,18 +16,38 @@ class MediaLogViewController: UIViewController {
     
     @IBOutlet weak var webview: UIWebView!
     
+    
+    @IBOutlet weak var activity: UIActivityIndicatorView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        webview.delegate=self
 
         // Do any additional setup after loading the view.
+      
         loadwebview()
-    }
+           }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
+    func webViewDidStartLoad(webView: UIWebView){
+        
+        activity.hidden = false
+        activity.startAnimating()
+        
+    }
+    
+    func webViewDidFinishLoad(webView: UIWebView)
+    {
+        
+        activity.hidden = true
+        activity.stopAnimating()
+    
+    }
 
     /*
     // MARK: - Navigation
@@ -46,4 +66,4 @@ class MediaLogViewController: UIViewController {
         webview.scalesPageToFit = true
         webview.loadRequest(request)
         
-    }}
+}}

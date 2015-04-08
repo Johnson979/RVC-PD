@@ -63,20 +63,26 @@
                                 <rect key="frame" x="0.0" y="64" width="600" height="487"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="k1D-xV-7N5">
+                                <rect key="frame" x="290" y="290" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="ycQ-bm-gaE" firstAttribute="top" secondItem="Me6-Og-H3B" secondAttribute="bottom" id="11F-yL-zqE"/>
-                            <constraint firstItem="Me6-Og-H3B" firstAttribute="leading" secondItem="vvL-si-ggo" secondAttribute="leading" id="1Re-Yl-V8A"/>
-                            <constraint firstItem="Me6-Og-H3B" firstAttribute="leading" secondItem="ycQ-bm-gaE" secondAttribute="leading" id="dKz-g5-PdP"/>
-                            <constraint firstItem="Me6-Og-H3B" firstAttribute="top" secondItem="JKa-1I-J09" secondAttribute="bottom" id="fYX-R2-ryG"/>
-                            <constraint firstItem="ycQ-bm-gaE" firstAttribute="trailing" secondItem="Me6-Og-H3B" secondAttribute="trailing" id="fk7-yr-uhr"/>
-                            <constraint firstAttribute="trailing" secondItem="ycQ-bm-gaE" secondAttribute="trailing" id="hbP-nd-VB3"/>
-                            <constraint firstItem="ycQ-bm-gaE" firstAttribute="bottom" secondItem="C3J-Wl-42w" secondAttribute="top" id="xyB-Nd-LTa"/>
+                            <constraint firstItem="Me6-Og-H3B" firstAttribute="leading" secondItem="vvL-si-ggo" secondAttribute="leading" id="6Qd-zZ-iRw"/>
+                            <constraint firstItem="Me6-Og-H3B" firstAttribute="top" secondItem="JKa-1I-J09" secondAttribute="bottom" id="80o-hj-DmS"/>
+                            <constraint firstItem="Me6-Og-H3B" firstAttribute="centerX" secondItem="k1D-xV-7N5" secondAttribute="centerX" id="Qtb-CA-FAy"/>
+                            <constraint firstAttribute="trailing" secondItem="ycQ-bm-gaE" secondAttribute="trailing" id="R1Q-WK-g4X"/>
+                            <constraint firstItem="ycQ-bm-gaE" firstAttribute="bottom" secondItem="C3J-Wl-42w" secondAttribute="top" id="TFf-hX-EMI"/>
+                            <constraint firstItem="ycQ-bm-gaE" firstAttribute="trailing" secondItem="Me6-Og-H3B" secondAttribute="trailing" id="W2p-aK-nM3"/>
+                            <constraint firstItem="k1D-xV-7N5" firstAttribute="centerY" secondItem="vvL-si-ggo" secondAttribute="centerY" id="ghu-we-z9Y"/>
+                            <constraint firstItem="ycQ-bm-gaE" firstAttribute="top" secondItem="Me6-Og-H3B" secondAttribute="bottom" id="l56-Af-gzV"/>
+                            <constraint firstItem="ycQ-bm-gaE" firstAttribute="leading" secondItem="Me6-Og-H3B" secondAttribute="leading" id="wy8-b3-JYk"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="BIT" image="lifebuoy.png" id="Bcm-8l-zCf"/>
                     <connections>
+                        <outlet property="activity" destination="k1D-xV-7N5" id="Vjl-Ac-YBP"/>
                         <outlet property="webview" destination="ycQ-bm-gaE" id="kQO-5u-ccJ"/>
                     </connections>
                 </viewController>
@@ -143,22 +149,28 @@
                                 <rect key="frame" x="0.0" y="64" width="613" height="492"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="BqD-ec-b5U">
+                                <rect key="frame" x="296" y="300" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="WpQ-a9-epD" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" id="C5J-Q2-dnI"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="puu-4V-QqB" secondAttribute="trailing" constant="-29" id="GOg-Dc-4HD"/>
-                            <constraint firstItem="WpQ-a9-epD" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" id="Gtw-5l-nNo"/>
-                            <constraint firstItem="puu-4V-QqB" firstAttribute="leading" secondItem="WpQ-a9-epD" secondAttribute="leading" id="SJu-YC-vRL"/>
-                            <constraint firstItem="puu-4V-QqB" firstAttribute="top" secondItem="WpQ-a9-epD" secondAttribute="bottom" id="awd-R1-uX0"/>
-                            <constraint firstItem="puu-4V-QqB" firstAttribute="bottom" secondItem="Djb-ko-YwX" secondAttribute="top" id="c0i-bZ-3ru"/>
-                            <constraint firstAttribute="trailing" secondItem="WpQ-a9-epD" secondAttribute="trailing" id="sdH-pb-5Zb"/>
+                            <constraint firstItem="puu-4V-QqB" firstAttribute="bottom" secondItem="Djb-ko-YwX" secondAttribute="top" id="6aB-Mn-QlR"/>
+                            <constraint firstItem="puu-4V-QqB" firstAttribute="centerX" secondItem="BqD-ec-b5U" secondAttribute="centerX" id="7GA-vw-Yy0"/>
+                            <constraint firstItem="puu-4V-QqB" firstAttribute="leading" secondItem="WpQ-a9-epD" secondAttribute="leading" id="OB8-RD-cB2"/>
+                            <constraint firstItem="puu-4V-QqB" firstAttribute="top" secondItem="WpQ-a9-epD" secondAttribute="bottom" id="YoU-9W-CP6"/>
+                            <constraint firstItem="WpQ-a9-epD" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" id="ilY-Xb-kvg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="puu-4V-QqB" secondAttribute="trailing" constant="-29" id="imo-Cl-EHj"/>
+                            <constraint firstAttribute="trailing" secondItem="WpQ-a9-epD" secondAttribute="trailing" id="mG0-9I-b1J"/>
+                            <constraint firstItem="puu-4V-QqB" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" id="wgJ-i7-fEN"/>
+                            <constraint firstItem="BqD-ec-b5U" firstAttribute="centerY" secondItem="puu-4V-QqB" secondAttribute="centerY" id="wqk-Ln-Ih0"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Activity" image="handcuff.png" id="cPa-gy-q4n"/>
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="activity" destination="BqD-ec-b5U" id="e1s-Fg-QKw"/>
                         <outlet property="webview" destination="puu-4V-QqB" id="kXj-VS-nAE"/>
                     </connections>
                 </viewController>
@@ -194,20 +206,26 @@
                                 <rect key="frame" x="0.0" y="64" width="606" height="493"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="lFc-Di-4Pi">
+                                <rect key="frame" x="290" y="301" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="zw3-rV-ggt" firstAttribute="leading" secondItem="aIT-zZ-CSE" secondAttribute="leading" id="6Ih-NQ-AWA"/>
-                            <constraint firstItem="zw3-rV-ggt" firstAttribute="top" secondItem="7CO-NF-KBO" secondAttribute="bottom" id="8Z5-JQ-BuD"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="t4r-9o-KFs" secondAttribute="trailing" constant="-22" id="NuM-cK-xDy"/>
-                            <constraint firstItem="t4r-9o-KFs" firstAttribute="top" secondItem="zw3-rV-ggt" secondAttribute="bottom" id="T9E-QG-cd2"/>
-                            <constraint firstAttribute="trailing" secondItem="zw3-rV-ggt" secondAttribute="trailing" id="hM3-1T-cm9"/>
-                            <constraint firstItem="zw3-rV-ggt" firstAttribute="leading" secondItem="t4r-9o-KFs" secondAttribute="leading" id="l4j-DM-zjg"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="t4r-9o-KFs" secondAttribute="bottom" constant="43" id="tHM-SJ-ITH"/>
+                            <constraint firstItem="zw3-rV-ggt" firstAttribute="leading" secondItem="aIT-zZ-CSE" secondAttribute="leading" id="4LG-wl-dTZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="t4r-9o-KFs" secondAttribute="trailing" constant="-22" id="5E3-ff-qoT"/>
+                            <constraint firstItem="zw3-rV-ggt" firstAttribute="leading" secondItem="t4r-9o-KFs" secondAttribute="leading" id="AoS-YK-dPZ"/>
+                            <constraint firstItem="t4r-9o-KFs" firstAttribute="top" secondItem="zw3-rV-ggt" secondAttribute="bottom" id="Iez-fX-WBq"/>
+                            <constraint firstItem="zw3-rV-ggt" firstAttribute="top" secondItem="7CO-NF-KBO" secondAttribute="bottom" id="NFS-ir-3QD"/>
+                            <constraint firstItem="lFc-Di-4Pi" firstAttribute="centerX" secondItem="zw3-rV-ggt" secondAttribute="centerX" id="a38-xb-i3m"/>
+                            <constraint firstItem="o7O-Vf-Ayr" firstAttribute="top" secondItem="lFc-Di-4Pi" secondAttribute="bottom" constant="230" id="gE8-v9-XgT"/>
+                            <constraint firstAttribute="trailing" secondItem="zw3-rV-ggt" secondAttribute="trailing" id="oaV-YT-DA4"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="t4r-9o-KFs" secondAttribute="bottom" constant="43" id="rUn-aY-HZv"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="RSO" image="id-card.png" id="cVa-eK-dfh"/>
                     <connections>
+                        <outlet property="activity" destination="lFc-Di-4Pi" id="mRk-28-Pfm"/>
                         <outlet property="rsoWeb" destination="t4r-9o-KFs" id="dZs-gB-FcQ"/>
                     </connections>
                 </viewController>

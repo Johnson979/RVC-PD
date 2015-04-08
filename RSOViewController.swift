@@ -8,16 +8,19 @@
 
 import UIKit
 
-class RSOViewController: UIViewController {
+class RSOViewController: UIViewController, UIWebViewDelegate {
 
     @IBOutlet weak var rsoWeb: UIWebView!
     
+    
+    @IBOutlet weak var activity: UIActivityIndicatorView!
     
     @IBAction func btnBack(sender: UIBarButtonItem) {
         rsoWeb.goBack()
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        rsoWeb.delegate=self
 
         // Do any additional setup after loading the view.
         loadwebview()
@@ -27,7 +30,20 @@ class RSOViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    func webViewDidStartLoad(webView: UIWebView){
+        
+        activity.hidden = false
+        activity.startAnimating()
+        
+    }
     
+    func webViewDidFinishLoad(webView: UIWebView)
+    {
+        
+        activity.hidden = true
+        activity.stopAnimating()
+        
+    }
 
     /*
     // MARK: - Navigation
