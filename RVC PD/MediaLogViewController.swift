@@ -17,6 +17,10 @@ class MediaLogViewController: UIViewController, UIWebViewDelegate {
     @IBOutlet weak var webview: UIWebView!
     
     
+    @IBAction func btnRefresh(sender: AnyObject) {
+        webview.reload()
+    }
+    
     @IBOutlet weak var activity: UIActivityIndicatorView!
     
     

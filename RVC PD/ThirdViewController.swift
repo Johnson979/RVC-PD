@@ -12,7 +12,13 @@ class ThirdViewController: UIViewController {
     
     
     
-    @IBAction func btnCall(sender: UIButton) {if let url = NSURL(string: "tel://8159214370") {
+    @IBAction func btnCall(sender: UIButton) {if let url = NSURL(string: "tel://8159214350") {
+        UIApplication.sharedApplication().openURL(url)
+        }
+    }
+    
+    
+    @IBAction func btnEmergency(sender: UIButton) {if let url = NSURL(string: "tel://8156544357") {
         UIApplication.sharedApplication().openURL(url)
         }
     }

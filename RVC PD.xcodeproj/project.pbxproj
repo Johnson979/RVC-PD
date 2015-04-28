@@ -21,6 +21,9 @@
 		9D0861EE1A9FB7CD00C57CD5 /* Police Patch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D0861ED1A9FB7CD00C57CD5 /* Police Patch.jpg */; };
 		9D0861F01A9FBB9300C57CD5 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0861EF1A9FBB9300C57CD5 /* ThirdViewController.swift */; };
 		9D329D501AA65649001DE582 /* iosmain.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D329D4F1AA65649001DE582 /* iosmain.png */; };
+		9D33B0091AEEE62300F4AB3E /* Police Patchsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D33B0081AEEE62300F4AB3E /* Police Patchsmall.png */; };
+		9D33B00B1AEF125C00F4AB3E /* testbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D33B00A1AEF125C00F4AB3E /* testbutton.png */; };
+		9D33B00D1AEF149500F4AB3E /* Contactbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D33B00C1AEF149500F4AB3E /* Contactbackground.png */; };
 		9D33BEE61AD467AB008F0252 /* BitFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D33BEE51AD467AB008F0252 /* BitFormViewController.swift */; };
 		9D33BEE81AD4777B008F0252 /* lifebuoy.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D33BEE71AD4777B008F0252 /* lifebuoy.png */; };
 		9D3C4A601AD39203000A9972 /* MediaLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3C4A5F1AD39203000A9972 /* MediaLogViewController.swift */; };
@@ -56,6 +59,9 @@
 		9D0861ED1A9FB7CD00C57CD5 /* Police Patch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Police Patch.jpg"; sourceTree = "<group>"; };
 		9D0861EF1A9FBB9300C57CD5 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		9D329D4F1AA65649001DE582 /* iosmain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iosmain.png; sourceTree = "<group>"; };
+		9D33B0081AEEE62300F4AB3E /* Police Patchsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Police Patchsmall.png"; path = "../../Police Patchsmall.png"; sourceTree = "<group>"; };
+		9D33B00A1AEF125C00F4AB3E /* testbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = testbutton.png; path = ../../testbutton.png; sourceTree = "<group>"; };
+		9D33B00C1AEF149500F4AB3E /* Contactbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Contactbackground.png; path = ../../Contactbackground.png; sourceTree = "<group>"; };
 		9D33BEE51AD467AB008F0252 /* BitFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitFormViewController.swift; sourceTree = "<group>"; };
 		9D33BEE71AD4777B008F0252 /* lifebuoy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lifebuoy.png; path = "../../iconbeast lite 300 - png/lifebuoy.png"; sourceTree = "<group>"; };
 		9D3C4A5F1AD39203000A9972 /* MediaLogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaLogViewController.swift; sourceTree = "<group>"; };
@@ -151,6 +157,9 @@
 				9D0861E91A9FB15300C57CD5 /* id-card.png */,
 				9D329D4F1AA65649001DE582 /* iosmain.png */,
 				9D0861ED1A9FB7CD00C57CD5 /* Police Patch.jpg */,
+				9D33B00C1AEF149500F4AB3E /* Contactbackground.png */,
+				9D33B00A1AEF125C00F4AB3E /* testbutton.png */,
+				9D33B0081AEEE62300F4AB3E /* Police Patchsmall.png */,
 				9D0861E71A9FAE4F00C57CD5 /* house.png */,
 			);
 			name = Images;
@@ -238,11 +247,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D0861EA1A9FB15300C57CD5 /* id-card.png in Resources */,
+				9D33B00B1AEF125C00F4AB3E /* testbutton.png in Resources */,
 				9D0861CB1A9FABE300C57CD5 /* Main.storyboard in Resources */,
 				9D0861D01A9FABE300C57CD5 /* LaunchScreen.xib in Resources */,
 				9D0861EE1A9FB7CD00C57CD5 /* Police Patch.jpg in Resources */,
 				9D33BEE81AD4777B008F0252 /* lifebuoy.png in Resources */,
 				9D0861EC1A9FB17200C57CD5 /* handcuff.png in Resources */,
+				9D33B00D1AEF149500F4AB3E /* Contactbackground.png in Resources */,
+				9D33B0091AEEE62300F4AB3E /* Police Patchsmall.png in Resources */,
 				9D0861E81A9FAE4F00C57CD5 /* house.png in Resources */,
 				9D0861E61A9FAD7000C57CD5 /* phone.png in Resources */,
 				9D329D501AA65649001DE582 /* iosmain.png in Resources */,

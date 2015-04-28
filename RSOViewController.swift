@@ -18,6 +18,11 @@ class RSOViewController: UIViewController, UIWebViewDelegate {
     @IBAction func btnBack(sender: UIBarButtonItem) {
         rsoWeb.goBack()
     }
+    
+    
+    @IBAction func btnRefresh(sender: UIBarButtonItem) {
+        rsoWeb.reload()
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         rsoWeb.delegate=self

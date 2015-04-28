@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -102,24 +102,55 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="saz-Ed-FeY">
-                                <rect key="frame" x="185" y="86" width="86" height="30"/>
-                                <state key="normal" title="Call RVC PD">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Contactbackground.png" translatesAutoresizingMaskIntoConstraints="NO" id="F1d-eM-tWJ">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="saz-Ed-FeY">
+                                <rect key="frame" x="194" y="171" width="212" height="91"/>
+                                <color key="backgroundColor" red="0.13784429055276251" green="0.77614030934343436" blue="0.18318599180017225" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="91" id="30a-ZS-zp6"/>
+                                    <constraint firstAttribute="width" constant="212" id="HDA-wo-3on"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                                <state key="normal" title="Call RVC PD"/>
                                 <connections>
                                     <action selector="btnCall:" destination="fIR-hk-JSc" eventType="touchUpInside" id="EWA-wq-oOx"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RU6-cj-oy7">
+                                <rect key="frame" x="194" y="337" width="212" height="91"/>
+                                <color key="backgroundColor" red="0.77614030934343436" green="0.17990233398393138" blue="0.078331465332483585" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                                <state key="normal" title="Emergency">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnEmergency:" destination="fIR-hk-JSc" eventType="touchUpInside" id="WyW-cF-le8"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="F1d-eM-tWJ" firstAttribute="leading" secondItem="LVW-Js-Srx" secondAttribute="leading" id="J8U-lc-pDt"/>
+                            <constraint firstItem="sM1-sX-Nfc" firstAttribute="top" secondItem="RU6-cj-oy7" secondAttribute="bottom" constant="123" id="Mm1-q7-9ZR"/>
+                            <constraint firstItem="F1d-eM-tWJ" firstAttribute="top" secondItem="LVW-Js-Srx" secondAttribute="top" id="TnW-hd-j82"/>
+                            <constraint firstItem="RU6-cj-oy7" firstAttribute="leading" secondItem="saz-Ed-FeY" secondAttribute="leading" id="cM6-sF-UIP"/>
+                            <constraint firstItem="saz-Ed-FeY" firstAttribute="centerX" secondItem="F1d-eM-tWJ" secondAttribute="centerX" id="eA4-iZ-bET"/>
+                            <constraint firstItem="RU6-cj-oy7" firstAttribute="top" secondItem="saz-Ed-FeY" secondAttribute="bottom" constant="75" id="kcq-Ik-IdY"/>
+                            <constraint firstItem="F1d-eM-tWJ" firstAttribute="bottom" secondItem="sM1-sX-Nfc" secondAttribute="top" id="kss-xS-Tzk"/>
+                            <constraint firstAttribute="trailing" secondItem="F1d-eM-tWJ" secondAttribute="trailing" id="nEz-5B-wD5"/>
+                            <constraint firstItem="RU6-cj-oy7" firstAttribute="trailing" secondItem="saz-Ed-FeY" secondAttribute="trailing" id="nOR-i3-NLe"/>
+                            <constraint firstItem="saz-Ed-FeY" firstAttribute="top" secondItem="zwg-Eo-I7Q" secondAttribute="bottom" constant="151" id="qIs-66-0NB"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Call" image="phone.png" id="IZI-fg-YfE"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2RR-Pm-rD4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="928" y="953"/>
+            <point key="canvasLocation" x="1044" y="982"/>
         </scene>
         <!--Activity-->
         <scene sceneID="wg7-f3-ORb">
@@ -140,6 +171,11 @@
                                         <barButtonItem key="leftBarButtonItem" title="&lt; Back" id="0vU-TU-nnB">
                                             <connections>
                                                 <action selector="btnBack:" destination="8rJ-Kc-sve" id="rbc-sT-3zE"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="6I8-7O-Vee">
+                                            <connections>
+                                                <action selector="btnRefresh:" destination="8rJ-Kc-sve" id="czy-Qv-GQ8"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -197,6 +233,11 @@
                                         <barButtonItem key="leftBarButtonItem" title="&lt; Back" id="gzC-Yw-FwO">
                                             <connections>
                                                 <action selector="btnBack:" destination="1Gh-YQ-1QQ" id="tZf-FR-OBt"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="dAb-uS-dpS">
+                                            <connections>
+                                                <action selector="btnRefresh:" destination="1Gh-YQ-1QQ" id="qob-jg-II5"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -257,6 +298,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Contactbackground.png" width="555" height="768"/>
         <image name="handcuff.png" width="30" height="30"/>
         <image name="house.png" width="30" height="30"/>
         <image name="id-card.png" width="30" height="30"/>
