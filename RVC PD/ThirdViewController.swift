@@ -18,14 +18,14 @@ class ThirdViewController: UIViewController {
     }
     
     
-    @IBAction func btnEmergency(sender: UIButton) {if let url = NSURL(string: "tel://8156544357") {
-        UIApplication.sharedApplication().openURL(url)
+   
+    @IBAction func btnEmergency(sender: UIButton) {
+       
+        if let url = NSURL(string: "tel://8156544357") {
+                  UIApplication.sharedApplication().openURL(url)                override func viewDidLoad()
         }
-    }
-    
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
+       
+    super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
     
